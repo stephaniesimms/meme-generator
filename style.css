@@ -1,0 +1,85 @@
+/* Global settings */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.heading {
+  font-family: Kodchasan, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.background-color {
+  background-color:#e0ecf4;
+  padding: 20px 35px 20px 20px;
+}
+.col-form-label {
+  font-family: Kodchasan;
+}
+.btn {
+  background-color: #8856a7;
+  color: white;
+}
+
+/* Meme gallery */
+
+.meme-div {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+}
+
+.meme-div:hover {
+  opacity: 0.5;
+}
+
+.meme-text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 250%;
+  color: white;
+  text-transform: uppercase;
+  text-align: center; 
+  line-height: 1.1em;
+  text-shadow: -2px -2px black, 2px -2px black, -2px 2px black,
+    2px 2px black;
+  width: 490px;
+}
+
+.top-text-display {
+  position: absolute;
+  top: 15px;
+  max-height: 40%;
+}
+
+.bottom-text-display {
+  position: absolute;
+  bottom: 0px;
+  max-height: 40%;
+}
+
+.meme-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.remove-button {
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  height: auto;
+  font-size: 1400%;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  opacity: 0;  
+}
+
+.remove-button:hover {
+  opacity: 0.5;
+}

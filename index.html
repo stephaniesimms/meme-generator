@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <div class="container-fluid background-color">
+        <div class="mx-auto text-center heading">
+            <h1>MemeMaker</h1>
+            <h2 class="text-muted lead">Fill out the form to make instant memes!</h2>
+        </div>
+
+        <form action="#" id="meme-form">
+            <div class="form-group row">
+                <label for="image-url" class="col-2 col-form-label">Image URL</label>
+                <input type="url" name="image-url" class="form-control col-10" id="image-url" placeholder="Enter image URL here" required>
+            </div>
+            <div class="form-group row">
+                <label for="top-text" class="col-2 col-form-label">Text on top</label>
+                <input type="text" name="top-text" class="form-control col-10" id="top-text" placeholder="Place text for the top of the meme here (optional)">
+            </div>
+            <div class="form-group row">
+                <label for="bottom-text" class="col-2 col-form-label">Text on bottom</label>
+                <input type="text" name="bottom-text" class="form-control col-10" id="bottom-text" placeholder="Place text for the bottom of the meme here (optional)">
+            </div>
+            <div class="row">
+                <button class="btn ml-auto" type="submit">Make meme</button>
+            </div>
+        </form>
+    </div>
+    
+    <section class="container-fluid" id="meme-gallery">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
